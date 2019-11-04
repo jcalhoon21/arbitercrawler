@@ -1,11 +1,19 @@
 {
   "name": "arbitercrawler",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "request": "^2.88.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +35,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcalhoon21/arbitercrawler.git"
+  },
+  "author": "Jen Calhoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcalhoon21/arbitercrawler/issues"
+  },
+  "homepage": "https://github.com/jcalhoon21/arbitercrawler#readme"
 }
